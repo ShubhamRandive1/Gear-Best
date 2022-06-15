@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Electronics</title>
+        <link rel="stylesheet" href="./style/product.css">
+        <link rel="stylesheet" href="./style/index.css">
+        <link rel="stylesheet" href="./style/filter.css">
+
+        <script
+            src="https://kit.fontawesome.com/7b63b22604.js"
+            crossorigin="anonymous"> 
+            </script>
+
+
+    </head>
+    <body>
+        <div id="navbar">
+
+        </div>
+
+        <div id="selectors">
+            <a href="./mobile.html"><h4>Mobile Phones</h4></a>
+            <a href="./electronic.html"><h4>Toys & Drones</h4></a>
+            <a href="./electronic.html"><h4>Electronics</h4></a>
+            <a href="./computer.html"><h4>Appliances</h4></a>
+            <a href="./computer.html"><h4>Computer Components</h4></a>
+        </div>
+
+
+        <div id="filterss">
+
+        </div>
+
+        <br><br>
+
+        <div id="electronics">
+
+        </div>
+
+        <br><br>
+
+        <center><button id="loadmore">LOAD MORE</button></center>
+
+        <div id="footer--start">
+
+
+        </div>
+    </body>
+</html>
+
+<script type="module">
+
+    import navbar from './components/navbar.js'
+
+    document.getElementById('navbar').innerHTML = navbar();
+
+
+    import footer from './components/footer.js'
+
+
+    document.getElementById('footer--start').innerHTML = footer();
+
+
+    import filter from './components/filter.js'
+
+    document.getElementById('filterss').innerHTML = filter();
+
+
+</script>
+<script src="./scripts/electronics.js"></script>
