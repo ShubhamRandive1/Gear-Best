@@ -6,7 +6,7 @@ Hello Everyone I am Delighted To Share The Individual Project during The constru
 [Shubham C Randive](https://github.com/ShubhamRandive1)
 
 
-
+#Netlify:-(https://luminous-naiad-d6f470.netlify.app/)
 
 As This Was The First Individual project I was thrilled and enthusiastic, Gearbest.com website was given to me  To Clone Using HTML, Advance JavaScript(ES6+) , and CSS As Of This Website Features an e-commerce site for all sense of products, So even from the start it was a bit of challenging,
 
