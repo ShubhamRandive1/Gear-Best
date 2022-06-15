@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OTP</title>
+        <link rel="stylesheet" href="./style/product.css">
+        <link rel="stylesheet" href="./style/index.css">
+        <link rel="stylesheet" href="./style/filter.css">
+
+        <script
+            src="https://kit.fontawesome.com/7b63b22604.js"
+            crossorigin="anonymous"> 
+            </script>
+    </head>
+    <body>
+
+        <div id="navbar">
+
+        </div>
+        <br><br>
+
+        <h1></h1>
+        <input type="number" id="otp" placeholder="enter your OTP" />
+        <input type="number" id="val" placeholder="payment" />
+        <button>Pay</button>
+
+        <br><br>
+
+        <div id="footer--start">
+
+
+        </div>
+
+    </body>
+</html>
+<script>
+    var cashVal= JSON.parse(localStorage.getItem("productsdata"))
+    var cash = document.querySelector("#val").textContent=cashVal;
+
+    document.querySelector("h1").textContent="Payment Value " + cashVal;
+     console.log(JSON.parse(localStorage.getItem("cartTotalPayValue")))
+     document.querySelector("button").addEventListener("click",pay);
+     function pay() {
+ 
+    var otp = document.querySelector("#otp").value;
+   
+    if(otp == "1234")
+    {
+        alert("Payment Success!");
+        window.location.href="./index.html"
+    }else
+    {
+        alert("Payment Failure!");
+        window.location.href="index.html"
+        
+    }
+   //console.log(cash=cashVal)
+  
+}
+
+
+</script>
+<script type="module">
+
+
+    import navbar from './components/navbar.js'
+    
+    document.getElementById('navbar').innerHTML = navbar();
+    
+    
+    import footer from './components/footer.js'
+    
+    
+    document.getElementById('footer--start').innerHTML = footer();
+    
+    
+    import filter from './components/filter.js'
+    
+    document.getElementById('filterss').innerHTML = filter();
+    
+    
+    </script>
