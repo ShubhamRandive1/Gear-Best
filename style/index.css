@@ -1,0 +1,308 @@
+
+*{
+    background-color: beige;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+#navbar{
+    width: 80%;
+    height:20vh;
+    border-radius:10%;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:10%;
+    background-color:rgb(215, 242, 95);
+}
+#navbar>#logo{
+    width: 25%;
+    height:15vh;
+    margin-top:2%;
+}
+
+#navbar>#logo>img{
+    width: 115%;
+    height: 80%;
+}
+
+#navbar>#search{
+    width: 60%;
+    height:15vh;
+    
+    margin-left:10%;
+}
+
+#search>#search-up{
+    width: 100%;
+    height: 60px;
+    
+    display: flex;
+    justify-content:space-evenly;
+    font-size:large;
+
+}
+
+#search>#search-down{
+    width: 55%;
+    height: 35vh;
+    
+    margin-top: 40px;
+  
+}
+
+#search-down>#search-down-right{
+    width: 80%;
+    height: 40px;
+    
+    margin-left:100%;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top:-25px;
+    font-size:20px;
+}
+#search-down>input{
+    width:35vh;
+    margin-left: 5%;
+}
+
+#top-body{
+    width: 80%;
+    height: 5vh;
+    overflow: hidden;
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:10%;
+    margin-top:2vh;
+    margin-bottom: 2vh;
+    justify-content:space-evenly;
+    font-size:large;
+}
+
+#top-upper{
+    width: 80%;
+    display:flex;
+
+    margin-top: 1%;
+    margin-left: 10%;
+    height: 45vh;
+    margin-bottom: 2%;
+justify-content: space-between;
+
+}
+#right-top{
+    width: 128vh;
+    height: 45vh;
+    overflow: hidden;
+    display:flex;
+    justify-content:space-evenly;
+    border-radius: 10%;
+    
+    
+}
+
+#top-left{
+width: 20%;
+height: 100%;
+
+
+
+}
+
+#right-upper{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+
+
+#offer-start{
+    width: 80%;
+    height: 180px;
+    
+    margin-left:10%;
+}
+
+#offer-start>img{
+    width:32vh;
+    height:100%;
+    display:inline-block;
+    overflow: hidden;
+    
+    
+}
+
+#collection{
+    width: 80%;
+    height: 40px;
+    
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+#collection>#inside-collect{
+    width: 100%;
+    height: 200px;
+    
+    margin-top: 1%;
+}
+
+#inside-collect>img{
+    width:25vh;
+    height:100%;
+    display:inline-block;
+}
+
+#superdeals{
+    width: 80%;
+    height: 40px;
+    
+    margin-top: 12%;
+    margin-left: 10%;
+}
+
+#superdeals>#inside-super{
+    width: 100%;
+    height: 200px;
+    
+    margin-top: 3%;
+}
+#inside-super>img{
+    width:26vh;
+    height:100%;
+}
+
+
+#slider{
+    width: 80%;
+    height: 40px;
+    
+    margin-top: 14%;
+    margin-left: 10%;
+}
+
+#slider>#inside-slider{
+    width: 100%;
+    height: 200px;
+    
+    margin-top: 4%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#recommended{
+    width: 80%;
+    height: 40px;
+    
+    margin-top: 15%;
+    margin-left: 10%;
+
+}
+
+#recommended>#inside-recommended{
+    width: 100%;
+    height:900px;
+    
+    margin-top: 5%;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+#inside-recommended>img{
+ width: 20vh;
+ height: 20vh;
+}
+
+#footer-before{
+    width:80%;
+    height:50px;
+    margin-left:10%;
+    margin-top: 56%;
+    
+}
+
+
+#footer-actual{
+    width: 80%;
+    height: 900px;
+    margin-left:10%;
+    
+    margin-top:5%;
+}
+#footer-actual>#footer-top{
+    width: 80%;
+    height: 150px;
+    
+    margin-left: 10%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#footer-top>#mains{
+    width: 20vh;
+    height: 8vh;
+    margin-top: 2%;
+}
+
+#footer-top>p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+
+
+#footer-top>p{
+    margin-top: 5%;
+}
+
+#footer-actual>#footer--start{
+    width: 100%;
+    height: 100px;
+    margin-top: 5%;
+    
+
+}
+
+#footer--start{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+#footer--start>i{
+    margin-left:5%;
+    display: flex;
+    justify-content: flex-end;
+}
+#footer--start>#informa{
+    width: 100%;
+    height:350px;
+    
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer--start>#footer-logos{
+    width: 100%;
+    height: 100px;
+    
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer-logos>img{
+    width: 7vh;
+    height: 6vh;
+    
+}
+
+
