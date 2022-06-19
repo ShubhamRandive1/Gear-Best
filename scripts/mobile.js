@@ -244,7 +244,7 @@
 
  }
 
-
+//sort options
  function sortbyBrand() {
      var selected = document.querySelector("#sortbybrand").value;
      if (selected != 0) {
